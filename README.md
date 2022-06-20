@@ -116,3 +116,19 @@ sphere        pos(300.00;0.00;226.41), diameter 50.00, rgb(128,43,175)
 sphere        pos(430.00;0.00;346.41), diameter 200.00, rgb(0,200,200)
 ```
 
+### Render 8
+
+![render](./render8.bmp)
+
+4 spheres, the first scene is in the (4th) big sphere, with white light and no ambiantlight.
+
+```
+canvas        height 720, width 1280
+ambiantlight  coef 0.00, rgb(255,0,0)
+camera        pos(400.00;0.00;0.00), rot(0.00;0.00;0.00), fov 60
+light         pos(250.00;100.00;50.00), coef 1.00, rgb(255,255,255)
+sphere        pos(300.00;0.00;346.41), diameter 200.00, rgb(0,200,200)
+sphere        pos(300.00;0.00;226.41), diameter 50.00, rgb(128,43,175)
+sphere        pos(430.00;0.00;346.41), diameter 200.00, rgb(0,200,200)
+sphere        pos(400.00;0.00;0.00), diameter 800.00, rgb(0,200,200)
+```
