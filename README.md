@@ -2,6 +2,15 @@
 
 All render are done with [Cinema4D of Maxon](https://www.maxon.net/cinema-4d).
 
+
+
+<details>
+  <summary>Don't forget that you can use the table of content of GITHUB.</summary>
+  
+  ![toc readme gif](./toc_readme.gif)
+  
+</details>
+ 
 ## Simple test with sphere
 
 ### Render 1
