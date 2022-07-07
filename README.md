@@ -141,3 +141,19 @@ sphere        pos(300.00;0.00;226.41), diameter 50.00, rgb(128,43,175)
 sphere        pos(430.00;0.00;346.41), diameter 200.00, rgb(0,200,200)
 sphere        pos(400.00;0.00;0.00), diameter 800.00, rgb(0,200,200)
 ```
+
+### Render 9
+
+![render](./render9.bmp)
+
+Same scene that the first but with rotation.
+
+```
+canvas        height 720, width 1280
+ambiantlight  coef 1.00, rgb(255,0,0)
+camera        pos(-140.00;0.00;70.00), rot(0.00;64.80;0.00), fov 60
+light         pos(250.00;100.00;50.00), coef 1.00, rgb(255,255,255)
+sphere        pos(300.00;0.00;346.41), diameter 200.00, rgb(0,200,200)
+sphere        pos(300.00;0.00;226.41), diameter 50.00, rgb(128,43,175)
+sphere        pos(430.00;0.00;346.41), diameter 200.00, rgb(0,200,200)
+```
